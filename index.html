@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/pages/index.css">
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <img src="/images/header-logo.png" alt="Around the US" class="header__logo">
+        </header>
+        <main class="content">
+            <div class="overlay"></div>
+            <!--popoup-->
+            <section class="popup">
+                <button class="popup__close-button">
+                    <img src="/images/close-icon.png" alt="close window" class="popup__close-button-img">
+                </button>
+                <div class="popup__container">
+                    <h2 class="popup__title">Edit Profile</h2>
+                    <form class="popup__form" novalidate>
+                        <input type="text" class="popup__input input__name" id="name" name="name" placeholder="Nombre" required>
+                        <input type="text" class="popup__input input__about" id="about-me" name="name" placeholder="Acerca de mí" required>
+                    </form>
+                    <button class="popup__save-button"> Guardar</button>
+                </div>
+            </section>
+            <!--end popoup-->
+            <section class="profile">
+                <img src="/images/image-profile.jpeg" alt="Jacques Cousteuau" class="profile__image">
+                <div class="profile__info">
+                    <h1 class="profile__info-name">Jacques Cousteuau</h1>
+                    <h2 class="profile__info-description">Explorer</h2>
+                    <button class="profile__info-edit-button">
+                        <img src="/images/icon-edit.png" alt="edit button" class="profile__info-edit-button-img">
+                    </button>
+                </div>
+                <button class="profile__add-button">
+                    <img src="/images/add-btn.png" alt="add button" class="profile__add-button-img">
+                </button>
+            </section>
+            <section class="elements">
+                <div class="elements__block">
+                    <img src="/images/yosemite.jpg" alt="Valle de Yosemite" class="elements__block-img">
+                    <h2 class="elements__block-text">Valle de Yosemite</h2>
+                    <button class="elements__block-like-button">
+                        <img src="/images/btn-like.png" alt="like button" class="elements__block-like-button-img">
+                    </button>
+                </div>
+                <div class="elements__block">
+                    <img src="/images/lago louise.png" alt="Lago Louise" class="elements__block-img">
+                    <h2 class="elements__block-text">Lago Louise</h2>
+                    <button class="elements__block-like-button">
+                        <img src="/images/btn-like.png" alt="like button" class="elements__block-like-button-img">
+                    </button>
+                </div>
+                <div class="elements__block">
+                    <img src="/images/calvas.png" alt="Montañas Calvas" class="elements__block-img">
+                    <h2 class="elements__block-text">Montañas Calvas</h2>
+                    <button class="elements__block-like-button">
+                        <img src="/images/btn-like.png" alt="like button" class="elements__block-like-button-img">
+                    </button>
+                </div>
+                <div class="elements__block">
+                    <img src="/images/latemar.png" alt="Latemar" class="elements__block-img">
+                    <h2 class="elements__block-text">Latemar</h2>
+                    <button class="elements__block-like-button">
+                        <img src="/images/btn-like.png" alt="like button" class="elements__block-like-button-img">
+                    </button>
+                </div>
+                <div class="elements__block">
+                    <img src="/images/vanoise.png" alt="Vanoise National Park" class="elements__block-img">
+                    <h2 class="elements__block-text">Vanoise National Park</h2>
+                    <button class="elements__block-like-button">
+                        <img src="/images/btn-like.png" alt="like button" class="elements__block-like-button-img">
+                    </button>
+                </div>
+                <div class="elements__block">
+                    <img src="/images/dibraies.png" alt="Lago di Braies" class="elements__block-img">
+                    <h2 class="elements__block-text">Lago di Braies</h2>
+                    <button class="elements__block-like-button">
+                        <img src="/images/btn-like.png" alt="like button" class="elements__block-like-button-img">
+                    </button>
+                </div>
+            </section>
+            <footer class="footer">
+                <h3 class="footer__text">@ 2021 Alrededor de los EEUU</h3>
+            </footer>
+        </main>
+    </div>
+    <script type="module" src="/scripts/index.js"></script>
+</body>
+</html>

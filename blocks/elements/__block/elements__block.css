@@ -1,0 +1,10 @@
+.elements__block {
+    width: 282px;
+    height: 361px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}

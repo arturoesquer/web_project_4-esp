@@ -1,0 +1,14 @@
+.popup {
+    position: fixed;
+    top: 155px;
+    left: calc(50vw - 215px);
+    display: none;
+    z-index: 2;
+}
+
+@media screen and (max-width: 836px) {
+    .popup {
+        top: 83.38px;
+        left: calc(50vw - 141px);
+    }
+}

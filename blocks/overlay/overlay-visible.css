@@ -1,0 +1,4 @@
+.overlay-visible {
+    opacity: .5;
+    visibility: visible;
+}

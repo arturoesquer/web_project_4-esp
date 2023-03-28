@@ -1,0 +1,12 @@
+.elements__block-like-button {
+    height: 19px;
+    width: 21px;
+    margin-top: 29px;
+    border: none;
+    background-color: white;
+}
+
+.elements__block-like-button:hover {
+    opacity: .5;
+    cursor: pointer;
+}
